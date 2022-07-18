@@ -40,3 +40,16 @@ net change - per state - not just adds
 
 where correlation happens - only use data that overlaps
 
+
+Recap July 12th, 2022
+Scott moving from Tableau to helping with Database creation. Also spent time with Github merging with help of TA’s.
+Alberto has finished his machine learning. Has also made AWS database..
+Brian is finalizing visuals from Rstudio, and moving on to helping Jadon with HTML.
+Jadon is working on the website itself.
+Everyone submit their portion of what they’ve done, and what conclusions they’ve made from their work for Jadon to upload for his HTML website. Also send their visuals/graphs for Jadon to upload onto the website. Mark which ones to upload..
+
+
+Recap July 14th, 2022
+Jadon and Alberto finishing up the merging of the two datasets.
+Scott helping Alberto with the SQL database
+Brian starting to work on HTML for the webpage presentation. Some further work on R performed with help of TA's.
