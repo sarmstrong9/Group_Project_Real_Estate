@@ -60,4 +60,6 @@ We will organize our branches to make the final merge to main branch smooth as p
 Need to update the tabs on our website instead of using 'R', "Machine Learning", etc...
 
 
-Jadon, refer to the word document on this branch. The yellow highlights show what needs to be updated on the "R.html" file on your branch. Please double-check to make sure all of it is present. 
+
+
+Jadon, refer to the word document on this branch for your website design. 
