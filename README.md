@@ -40,3 +40,21 @@ net change - per state - not just adds
 
 where correlation happens - only use data that overlaps
 
+
+Recap July 12th, 2022
+Scott moving from Tableau to helping with Database creation. Also spent time with Github merging with help of TA’s.
+Alberto has finished his machine learning. Has also made AWS database..
+Brian is finalizing visuals from Rstudio, and moving on to helping Jadon with HTML.
+Jadon is working on the website itself.
+Everyone submit their portion of what they’ve done, and what conclusions they’ve made from their work for Jadon to upload for his HTML website. Also send their visuals/graphs for Jadon to upload onto the website. Mark which ones to upload..
+
+
+Recap July 19th, 2022
+Alberto will start focusing on other types of machine learning, potentially using unsupervised ML using Brian's correlation matrices as guidance.
+Brian will start focusing on Flask app & Heroku. Potentially use Javascript (Low priority)
+Jadon will start updating the webpage
+Scott will working with Alberto's pgAdmin work
+General:
+we are in agreement to have updated Readme's on our own branches.
+We will organize our branches to make the final merge to main branch smooth as possible.
+Need to update the tabs on our website instead of using 'R', "Machine Learning", etc...
