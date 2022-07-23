@@ -71,10 +71,12 @@ DROP TABLE no_pop_migration_table;
 		number_people INT not NULL,	
 		migration_total INT NOT NULL
 	);	
+	
 	-- Show no pop migration table
 	SELECT * FROM no_pop_migration_table
 	ORDER BY year ASC;
 	
+	DROP TABLE no_pop_grouped_migration;
 	-- Group no pop migration table
 	SELECT 
 		EXTRACT(year FROM year) AS year,
@@ -91,7 +93,7 @@ DROP TABLE no_pop_migration_table;
 	ORDER BY year ASC;
 
 
-DROP no_pop_housing_migration;
+DROP TABLE no_pop_housing_migration;
 -- Inner JOIN grouped_housing with no_pop_grouped_migration
 	SELECT 
 		gh.year,
@@ -110,7 +112,7 @@ DROP no_pop_housing_migration;
 	ORDER BY year ASC;
 
 
-DROP housing_migration;
+DROP TABLE housing_migration;
 -- Inner JOIN grouped_housing with grouped_migration
 	SELECT 
 		gh.year,
@@ -118,7 +120,8 @@ DROP housing_migration;
 		gh.median_sale_price,
 		gh.homes_sold,
 		gm.population,
-		gm.migration_total
+		gm.migration_total,
+		gm.pop_change
 	INTO housing_migration
 	FROM grouped_housing AS gh
 	inner join grouped_migration AS gm ON 
