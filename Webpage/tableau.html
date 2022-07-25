@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Tableau</title>
+<title>Analyzing</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -18,60 +18,200 @@
   <div class="w3-bar w3-blue w3-card w3-left-align w3-large">
     <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-blue" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
     <a href="./index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Home</a>
-    <a href="./process.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Our Process</a>
-    <a href="./tableau.html" class="w3-bar-item w3-button w3-padding-large w3-white">Tableau</a>
-    <a href="./r.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">R</a>
-    <a href="./machine.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Machine Learning</a>
+    <a href="./process.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Setup/Tools</a>
+    <a href="./tableau.html" class="w3-bar-item w3-button w3-padding-large w3-white">Analyzing</a>
+    <a href="./r.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Testing</a>
+    <a href="./machine.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Predictions</a>
+    <a href="" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Summary</a>
   </div>
 
   <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
-    <a href="./process.html" class="w3-bar-item w3-button w3-padding-large">Our Process</a>
-    <a href="./tableau.html" class="w3-bar-item w3-button w3-padding-large">Tableau</a>
-    <a href="./r.html" class="w3-bar-item w3-button w3-padding-large">R</a>
-    <a href="./machine.html" class="w3-bar-item w3-button w3-padding-large">Machine Learning</a>
+    <a href="./process.html" class="w3-bar-item w3-button w3-padding-large">Setup/Tools</a>
+    <a href="./tableau.html" class="w3-bar-item w3-button w3-padding-large">Analyzing</a>
+    <a href="./r.html" class="w3-bar-item w3-button w3-padding-large">Testing</a>
+    <a href="./machine.html" class="w3-bar-item w3-button w3-padding-large">Predictions</a>
+    <a href="" class="w3-bar-item w3-button w3-padding-large">Summary</a>
   </div>
 </div>
 
+
 <!-- Header -->
 <header class="w3-container w3-blue w3-center" style="padding:128px 16px">
-  <h1 class="w3-margin w3-jumbo">Tableau</h1>
+  <h1 class="w3-margin w3-jumbo">Analyzing</h1>
 </header>
 
+<!--Topic Header-->
+<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+  <h1>US Population Trends (2012-2022 Data)</h1>
+</div>
+</div>
 <!-- First Grid -->
 <div class="w3-row-padding w3-padding-64 w3-container">
   <div class="w3-content">
-    <div class="w3-twothird">
-      <h1>About</h1>
-      <h5 class="w3-padding-32">The California Housing market has been at an all time high. We are interested in looking into what might be causing such high prices and if we could figure out a way to predict how the market might move in the future.</h5>
-
-      <p class="w3-text-grey">In order to set ourselves up to best look in to this we decided to look at Redfin. Redfin is a website that contains data for many housing metrics including but not limited to: buying, selling, and renting. Through our research we found a kaggle dataframe that contains information reguarding US Migration. </p>
+    <div class="w3-third">
+      <h1>US Population Growth by State</h1>
+      <h5 class="w3-padding-32">US population grew 6% from 2010 to 2019.  Most states staying relatively flat, 
+        but a few states contributing more than others to these numbers.</h5>
     </div>
 
-    <div class="w3-third w3-center">
-      <img src='images/california.jpeg'></i>
+    <div class="w3-center w3-half">
+      <img src='images/Tableau/Results/total_us_population.png' width="800" height="600"></i>
     </div>
   </div>
 </div>
 
 <!-- Second Grid -->
-<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
-  <div class="w3-content">
-    <div class="w3-third w3-center">
-      <i class="fa fa-coffee w3-padding-64 w3-text-red w3-margin-right"></i>
+<div class="w3-row-padding w3-padding-64 w3-container">
+<div class="w3-content">
+    <div class="w3-twothird">
+      <img src="images/Tableau/Results/population_changes_map.gif" width="600" height="400"></i>
     </div>
 
-    <div class="w3-twothird">
-      <h1>Our Datasets</h1>
-      <h5 class="w3-padding-32">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>
-
-      <p class="w3-text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-        laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <div class=" w3-third">
+      <h1>Net Population Over Time</h1>
+      <h5 class="w3-padding-32">Map of the US showing population growth/decline from 2010 to 2019.  Makes it easy to identify if states have a net 
+        growth or decline over time.  Coastal, Wester, and Southern states showing the largest increase over time.</h5>
+       
+        </div>
     </div>
   </div>
 </div>
 
+<!--Topic Header-->
+<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+    <h1>US Real Estate Pricing Trends (2012-2022 Data)</h1>
+  </div>
+</div>
+<!-- Third Grid-->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+      <div class="w3-quarter">
+        <h1>Average Median Sales Price Heatmap</h1>
+        <h5 class="w3-padding-32">Almost all states got more expensive as time progressed, but population gains aren't signifigant in most of the states that gained.
+        </h5>
+      </div>
+  
+      <div class=" w3-three-quarter">
+        <img src="images/Tableau/Results/avg_sale_price_by_state_heatmap.png" width="725" height="900"></i>
+         
+          </div>
+      </div>
+    </div>
+  </div>
+
+<!--Fourth Grid-->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">   
+    <div class="w3-half">
+        <img src="images/Tableau/Results/avg_sale_price_yoy_heatmap.png" width="600" height="600"></i>
+      </div>
+    </div>
+      <div class="w3-center w3-half">
+        <h1>Median Sales Price (YoY) <br> (%Gain/Decline)</h1>
+        <h5 class="w3-padding-32">All states are generally increasing at a faster pace through the later years
+        </h5>
+         
+          </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Fifth Grid-->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+      <div class="w3-third">
+        <h1>US Median Sales Price Over Time</h1>
+        <h5 class="w3-padding-32">Almost all states getting more expensive as time progresses - midwest and a select
+           few don't increase as much.  Coastal states as well as Colorado and Texas grow the most.
+        </h5>
+      </div>
+  
+      <div class=" w3-twothird">
+        <img src="images/Tableau/Results/median_sales_changes_map.gif" width="800"></i>
+         
+          </div>
+      </div>
+    </div>
+  </div>
+
+<!--Topic Header-->
+<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+  <h1>Looking Closer at Outlier States</h1>
+</div>
+</div>
+
+<!--Sixth Grid-->
+<div class="w3-row-padding w3-padding-64 w3-container">  
+  <div class="w3-content">
+    <div class="w3-twothird">
+        <img src="images/Tableau/Results/net_population_change_all_states.png" width="650" height="400"></i>
+      </div>
+      <div class="w3-center w3-third">
+        <h1>Population Data Over Time by State</h1>
+        <h5 class="w3-padding-32">California, Florida, New York, and Texas were notable outliers.
+        </h5>
+         
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Seventh Grid-->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+      <div class="w3-third">
+        <h1>Downselected States</h1>
+        <h5 class="w3-padding-32">Outlier states with large population increases over time are California, 
+          Florida, and Texas.  New York surpisingly had a large decline in population in 2018.
+        </h5>
+      </div>
+  
+      <div class=" w3-twothird">
+        <img src="images/Tableau/Results/net_population_change_downselected_states.png" width="800"></i>
+         
+          </div>
+      </div>
+    </div>
+  </div>
+
+<!--Sixth Grid-->
+<div class="w3-row-padding w3-padding-64 w3-container">  
+  <div class="w3-content">
+    <div class="w3-twothird">
+        <img src="images/Tableau/Results/sale_price_and_yoy_trend_downselected_states.png" width="650" height="600" ></i>
+      </div>
+      <div class="w3-center w3-third">
+        <h1>Sales Price and YoY Trends for Downselected States</h1>
+        <h5 class="w3-padding-32">As population growth slowed down or declined in California and New York, there is a flattening of price growth.
+            However, Florida and Texas house prices continue to grow at relatively the same rate, even though population growth was declining. 
+             This validates there not being a strong correlation between population and home price.  Vertical Line represents where population data cuts off. 
+        </h5>
+         
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Seventh Grid-->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+      <div class="w3-third">
+        <h1>Sales, Inventory, and Homes Sold for Downselected States</h1>
+        <h5 class="w3-padding-32">Similar to the Price and YoY trends, there's not a strong correlation between population changes and Inventory / Homes Sold.  
+          Trends remain unchanged even though population growth is changing.
+        </h5>
+      </div>
+  
+      <div class=" w3-twothird">
+        <img src="images/Tableau/Results/sales_vs_inventory_downselected_states.png" width="800"></i>
+         
+          </div>
+      </div>
+    </div>
+  </div>
 <div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
     <h1 class="w3-margin w3-xlarge">Scott Armstrong, Brian Kenney, Alberto Garcia, Jadon Gonzaga</h1>
 </div>

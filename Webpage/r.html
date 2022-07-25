@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>R</title>
+<title>Testing</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -18,25 +18,27 @@
   <div class="w3-bar w3-blue w3-card w3-left-align w3-large">
     <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-blue" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
     <a href="./index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Home</a>
-    <a href="./process.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Our Process</a>
-    <a href="./tableau.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Tableau</a>
-    <a href="./r.html" class="w3-bar-item w3-button w3-padding-large w3-white">R</a>
-    <a href="./machine.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Machine Learning</a>
+    <a href="./process.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Setup/Tools</a>
+    <a href="./tableau.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Analyzing</a>
+    <a href="./r.html" class="w3-bar-item w3-button w3-padding-large w3-white">Testing</a>
+    <a href="./machine.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Predictions</a>
+    <a href="" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Summary</a>
   </div>
 
   <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
-    <a href="./index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Home</a>
-    <a href="./process.html" class="w3-bar-item w3-button w3-padding-large">Our Process</a>
-    <a href="./tableau.html" class="w3-bar-item w3-button w3-padding-large">Tableau</a>
-    <a href="./r.html" class="w3-bar-item w3-button w3-padding-large">R</a>
-    <a href="./machine.html" class="w3-bar-item w3-button w3-padding-large">Machine Learning</a>
+    <a href="./process.html" class="w3-bar-item w3-button w3-padding-large">Setup/Tools</a>
+    <a href="./tableau.html" class="w3-bar-item w3-button w3-padding-large">Analyzing</a>
+    <a href="./r.html" class="w3-bar-item w3-button w3-padding-large">Testing</a>
+    <a href="./machine.html" class="w3-bar-item w3-button w3-padding-large">Predictions</a>
+    <a href="" class="w3-bar-item w3-button w3-padding-large">Summary</a>
   </div>
 </div>
 
+
 <!-- Header -->
 <header class="w3-container w3-blue w3-center" style="padding:128px 16px">
-  <h1 class="w3-margin w3-jumbo">R</h1>
+  <h1 class="w3-margin w3-jumbo">Testing</h1>
   <style>
     header {
       background-image: url('images/R_background.PNG');
@@ -47,106 +49,120 @@
 <!-- First Grid -->
 <div class="w3-row-padding w3-padding-64 w3-container">
   <div class="w3-content">
-    <div class="w3-twothird">
+    <div class="w3-third">
       <h1>About</h1>
       <h5 class="w3-padding-32">Rstudio was used to make visualization and perform research on the shared datasets. After combing through the datasets, some questions were raised about what is happening with the housing market in the United States.</h5>
 
       <p class="w3-text-grey">R is a powerful statistical programming language to analyze data and produce diagrams. After exploring the datasets, a few observations were made... </p>
     </div>
 
-    <div class="w3-third w3-center">
+    <div class="w3-twothird w3-center">
       <img src='images/housing_graph.jpg'></i>
     </div>
   </div>
+</div>
+<!--Topic Header-->
+<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+  <h1>Observations</h1>
+</div>
+</div>
 
+<!-- Second Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
   <div class="w3-content">
     <div class="w3-half">
-      <h1>Observations</h1>
-      <h5 class="w3-padding-32">1.	Is there a correlation between the mean housing price in the United States and the influx of people moving into those states? </h5>
-
-      <p class="w3-text-grey">We can see that through the graph that people migrating into states is not solely from the housing price, or else the trend would be a reverse relationship. Upon viewing this graph, it is clear that mean housing price is not the only reason for people migration, if at all. </p>
+      <h5>Is there a correlation between the mean housing price in the United States and the influx of people moving into those states?</h5>
+      <h5 class="w3-padding-32 w3-text-grey">We can see that through the graph that people migrating into states is not solely from the housing price, 
+        or else the trend would be a reverse relationship. Upon viewing this graph, it is clear that mean housing price is not the only reason for people 
+        migration, if at all.</h5>
     </div>
 
-    <div class="w3-half w3-center">
-      <img src='images/people_migrating_versus_mean_housing_price_over_all_states_all_years.PNG'></i>
-    </div>
-  </div>
-
-  <div class="w3-content">
-    <div class="w3-half">
-      <h1></h1>
-      <h5 class="w3-padding-32">2. Does California and Texas have a significantly higher rates of people migration than other states? </h5>
-
-      <p class="w3-text-grey">By comparing California and Texas to other randomly selected states, it can be observed that there is indeed a statistical difference. <br><br>Note: California had significant outliers in the graph that were omitted from the diagram to allow proper display of the graph.</p>
-    </div>
-
-    <div class="w3-half w3-center">
-      <img src='images/box_whisker_selected_current_state_versus_people_moving_ZOOMED.PNG'></i>
+    <div class="w3-center w3-half">
+      <img src='images/people_migrating_versus_mean_housing_price_over_all_states_all_years.PNG' width="600"></i>
     </div>
   </div>
+</div>
 
-
-  <div class="w3-content">
-    <div class="w3-half">
-      <h1></h1>
-      <h5 class="w3-padding-32">3. Do Property types have an affect on the mean housing price in the United Staes?</h5>
-
-      <p class="w3-text-grey">The heat map presented shows the states versus property type, with the color-filled boxes representing the mean price throughout the years. One observation is that the “Single Family Residential” property type tends to have a higher mean price than its counterparts. However, not all states reflect this trend so we can say that the mean price is not solely affected by the type of property, though it could give some influence.</p>
-    </div>
-
-    <div class="w3-half w3-center">
-      <img src='images/HEAT_map_state_property_type_median_price.PNG'><br><br></i>
-    </div>
-  </div>
-
-
-  <div class="w3-content">
-    <div class="w3-three-quarter">
-      <h1></h1>
-      <h5 class="w3-padding-32">4. Are there any variables in the dataset that could provide insight on change in the median sale prices in the United States?</h5>
-
-      <p class="w3-text-grey">We can see that besides “median_list_price”, there are no correlations between “median_sale_price” among the other variables. It is important to note that the median sale price in this dataset is not affected by the “homes_sold”. If the median sale price goes up solely from people moving into states & buying the available homes, the correlation would be an inverse (less than -0.7) relationship of homes sold. Since this is not the case, this further indicates that there are other variables at play in the rise of mean housing prices</p>
-      <br><br>
-      <img src='images/California_cor_matrix.PNG'></i>
-      <img src='images/Texas_cor_matrix.PNG'></i>
-      <img src='images/Illinois_cor_matrix.PNG'></i>
-    </div>
-
-    <div class="w3-twothird w3-center">
- 
-    </div>
-  </div>
-
+<!--Third Grid-->
+<div class="w3-row-padding w3-padding-64 w3-container">
   <div class="w3-content">
     <div class="w3-twothird">
-      <h1></h1>
-      <h5 class="w3-padding-32">5. Is there a clear trend throughout time in the United States that shows which states had the most migration?</h5>
-
-      <p class="w3-text-grey">As expected, California and Texas are showing a lighter color, indicating a higher than normal rate of migration influx into those two states. Furthermore, it appears Florida is also a state that received large amount of people moving in as well.</p>
-    </div> 
-
-    <div class="w3-third w3-center">
-      <br><br>
-      <img src='images/Heat_Map_year_state_pop_change.png'></i>
-   
+        <img src='images/box_whisker_selected_current_state_versus_people_moving_ZOOMED.PNG' width="680"></i>
+      </div>
+      <div class="w3-third w3-center">
+      <h5>Do California and Texas have a significantly higher rates of migration than other states?</h5>
+      <h5 class="w3-padding-32 w3-text-grey">By comparing California and Texas to other randomly selected states, it can be observed that there is indeed a statistical difference. 
+        <br><br>Note: California had significant outliers in the graph that were omitted from the diagram to allow proper display of the graph.</h5>
     </div>
+
+<!--Fourth Grid-->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-half w3-center">
+      <h5 class="w3-padding-32">Do property types have an affect on the mean housing price in the United States?</h5>
+
+      <p class="w3-text-grey">The heat map presented shows the states versus property type, with the color-filled boxes representing the mean price 
+        throughout the years. One observation is that the “Single Family Residential” property type tends to have a higher mean price than its counterparts. 
+        However, not all states reflect this trend so we can say that the mean price is not solely affected by the type of property, though it could give some influence.</p>
+    </div>
+
+    <div class="w3-half">
+      <img src='images/HEAT_map_state_property_type_median_price.PNG' width="700"></i>
+    </div>
+  </div>
+
+<!--Fifth Grid-->
+<div class="w3-row-padding w3-container">
+  <div class="w3-content">
+    <h5 class="w3-padding-32">Are there any variables in the dataset that could provide insight on change in the median sale prices in the United States?</h5>
+    <h5 class="w3-text-grey">We can see that besides “median_list_price”, there are no correlations between “median_sale_price” among the other variables.
+       It is important to note that the median sale price in this dataset is not affected by the “homes_sold”. If the median sale price goes up solely from 
+       people moving into states & buying the available homes, the correlation would be an inverse (less than -0.7) relationship of homes sold. Since this is 
+       not the case, this further indicates that there are other variables at play in the rise of mean housing prices</h5>
+  </div> 
+  </div>
+</div>
+
+<div class="w3-row-padding w3-container">
+  <div class="w3-content">
+    <div class=" w3-padding-64">
+      <img src='images/California_cor_matrix.PNG'></i><br>
+      <img src='images/Texas_cor_matrix.PNG'></i><br>
+      <img src='images/Illinois_cor_matrix.PNG'></i>
+    </div>
+  </div>
+</div>
+
+<!--Sixth Grid-->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird w3-center">
+      <img src='images/Heat_Map_year_state_pop_change.png' width="650">
+    </div>
+    <div class="w3-third">
+      <h5 class="w3-padding-32">Is there a clear trend throughout time in the United States that shows which states had the most migration?</h5>
+      <h5 class="w3-text-grey">As expected, California and Texas are showing a lighter color, indicating a higher than normal rate of migration influx into
+         those two states. Furthermore, it appears Florida is also a state that received large amount of people moving in as well.</h5>
+    </div> 
   </div>
 
     
-
+<!--Seventh Grid-->
+<div class="w3-row-padding w3-padding-64 w3-container">
   <div class="w3-content">
-    <div class="w3-twothird">
-      <h1></h1>
-      <h5 class="w3-padding-32">6. Are there any variables in the other dataset that could provide insight in the United States?</h5>
+      <h5 class="w3-padding-32">Are there any variables in the other dataset that could provide insight in the United States?</h5>
 
-      <p class="w3-text-grey">From the correlation matrix presented, population change shows a positive correlation to same states population & population staying at other states. Population is expected to have a positve correlation with the populations in the same state and different states as population is finite. If there are more people existing, then we can expect more people to exist in one state or another. Lastly, it appears that none of the years seem to be dependent on time.</p>
-      <br><br>
-      <img src='images/updated_migration_correlation.png'></i>
-      
-    </div>
+      <h5 class="w3-text-grey">From the correlation matrix presented, population change shows a positive correlation to same states population & 
+        population staying at other states. Population is expected to have a positve correlation with the populations in the same state and different 
+        states as population is finite. If there are more people existing, then we can expect more people to exist in one state or another. Lastly, it 
+        appears that none of the years seem to be dependent on time.</h5>
+      </div>
+      </div>
+</div>
+<div class="w3-row-padding w3-container">
+    <div class="w3-center">
+      <img src='images/updated_migration_correlation.png'>
 
-    <div class="w3-third w3-center">
- 
     </div>
   </div>
  

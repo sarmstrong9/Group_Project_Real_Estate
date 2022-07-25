@@ -44,6 +44,7 @@ As population growth slowed down or declined in California and New York, there i
 Similar to the Price and YoY trends, not a strong correlation between population changes and Inventory / Homes Sold.  Trends remain unchanged even though population growth is changing.
 
 
+
  
 
 Conclusions:
