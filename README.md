@@ -49,7 +49,17 @@ Jadon is working on the website itself.
 Everyone submit their portion of what they’ve done, and what conclusions they’ve made from their work for Jadon to upload for his HTML website. Also send their visuals/graphs for Jadon to upload onto the website. Mark which ones to upload..
 
 
-Recap July 14th, 2022
-Jadon and Alberto finishing up the merging of the two datasets.
-Scott helping Alberto with the SQL database
-Brian starting to work on HTML for the webpage presentation. Some further work on R performed with help of TA's.
+Recap July 19th, 2022
+Alberto will start focusing on other types of machine learning, potentially using unsupervised ML using Brian's correlation matrices as guidance.
+Brian will start focusing on Flask app & Heroku. Potentially use Javascript (Low priority)
+Jadon will start updating the webpage
+Scott will working with Alberto's pgAdmin work
+General:
+we are in agreement to have updated Readme's on our own branches.
+We will organize our branches to make the final merge to main branch smooth as possible.
+Need to update the tabs on our website instead of using 'R', "Machine Learning", etc...
+
+
+
+
+Jadon, refer to the word document on this branch for your website design. 
