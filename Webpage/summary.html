@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Predictions</title>
+<title>Summary</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -21,8 +21,8 @@
     <a href="./process.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Setup/Tools</a>
     <a href="./tableau.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Analyzing</a>
     <a href="./r.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Testing</a>
-    <a href="./machine.html" class="w3-bar-item w3-button w3-padding-large w3-white">Predictions</a>
-    <a href="./summary.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Summary</a>
+    <a href="./machine.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Predictions</a>
+    <a href="./summary.html" class="w3-bar-item w3-button w3-padding-large w3-white">Summary</a>
   </div>
 
   <!-- Navbar on small screens -->
@@ -31,48 +31,32 @@
     <a href="./tableau.html" class="w3-bar-item w3-button w3-padding-large">Analyzing</a>
     <a href="./r.html" class="w3-bar-item w3-button w3-padding-large">Testing</a>
     <a href="./machine.html" class="w3-bar-item w3-button w3-padding-large">Predictions</a>
-    <a href="./summary.html" class="w3-bar-item w3-button w3-padding-large">Summary</a>
+    <a href="" class="w3-bar-item w3-button w3-padding-large">Summary</a>
   </div>
 </div>
 
-
 <!-- Header -->
 <header class="w3-container w3-blue w3-center" style="padding:128px 16px">
-  <h1 class="w3-margin w3-jumbo">Predictions</h1>
+  <h1 class="w3-margin w3-jumbo">Summary</h1>
 </header>
 
 <!-- First Grid -->
 <div class="w3-row-padding w3-padding-64 w3-container">
   <div class="w3-content">
-    <div class="w3-center">
-      <h1>Setup</h1>
-      <h5 class="w3-padding-32">After cleaning our data in pandas the dataframes were exported to SQL.</h5>
+    <div class="w3-twothird">
+      <h1>Conclusions</h1>
+      <h5 class="w3-padding-32">The California Housing market is at an all time high. We are interested in looking into what might be causing such
+           high prices and if we could figure out a way to predict how the market might move in the future.
 
-      <p class="w3-text-grey">Through SQL and inner join was applied based on year and state in order to fully merge our datasets.
-        This data was then fit into a linear regression model which provided use with a model coefficient of 0.11 and a 209366  model intercept. </p>
-    </div>
-  </div>
-</div>
-    <div class="w3-center">
-      <div class="w3-content w3-padding-64">
-      <img src='images/Model_coef.png'></i>
-    </div>
-  </div>
-</div>
-
-<!-- Second Grid -->
-<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
-  <div class="w3-content">
-    <div class="w3-twothird w3-center">
-      <img src="./images/Linear_Regression_Graph.png" width="500" height="500">
-    </div>
-
-    <div class="w3-third">
-      <h5 class="w3-padding-32">The model coefficient of 0.11 shows that migration does not have a positive correlation on home prices. However, this
-        small of a coefficient indicates that there is something else influencing rising home prices much more than migration.
       </h5>
 
-      <p class="w3-text-grey"></p>
+      <p class="w3-text-grey">In order to set ourselves up to best look in to this we decided to look at Redfin. Redfin is a website that contains current and past data for many 
+          housing metrics including but not limited to: buying, selling, and renting. Through our research we found a kaggle dataset that contains information 
+          reguarding US state to state migration. This provided us with data from the US Census that details state to state migration as well as population data from 2010 to 2019. </p>
+    </div>
+
+    <div class="w3-third w3-center">
+      <img src='images/california.jpeg'></i>
     </div>
   </div>
 </div>
@@ -83,11 +67,11 @@
 
 <!-- Footer -->
 <footer class="w3-container w3-padding-64 w3-center w3-opacity">  
-    <div class="w3-xlarge w3-padding-32">
-      <a href= "https://github.com/sarmstrong9/Group_Project_Real_Estate" title= "Github Repo"><i class="fa fa-github w3-hover-opacity" style="font-size:36px"></i>Github Repo</a>
-   </div>
-   <p>Template by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
-  </footer>
+  <div class="w3-xlarge w3-padding-32">
+    <a href= "https://github.com/sarmstrong9/Group_Project_Real_Estate" title= "Github Repo"><i class="fa fa-github w3-hover-opacity" style="font-size:36px"></i>Github Repo</a>
+ </div>
+ <p>Template by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
 
 <script>
 // Used to toggle the menu on small screens when clicking on the menu button

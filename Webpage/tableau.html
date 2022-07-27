@@ -22,7 +22,7 @@
     <a href="./tableau.html" class="w3-bar-item w3-button w3-padding-large w3-white">Analyzing</a>
     <a href="./r.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Testing</a>
     <a href="./machine.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Predictions</a>
-    <a href="" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Summary</a>
+    <a href="./summary.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Summary</a>
   </div>
 
   <!-- Navbar on small screens -->
@@ -41,6 +41,17 @@
   <h1 class="w3-margin w3-jumbo">Analyzing</h1>
 </header>
 
+<!--Hypothesis-->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-whole w3-center">
+      <h1>Hypothesis</h1>
+      <h5 class="w3-padding-32 w3-text-grey">Population and migration trends would have a high correlation to housing prices.
+        Based on these migration trends, one would be able to predict price changes.</h5>
+    </div>
+  </div>
+</div>
+
 <!--Topic Header-->
 <div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
   <h1>US Population Trends (2012-2022 Data)</h1>
@@ -50,8 +61,8 @@
 <div class="w3-row-padding w3-padding-64 w3-container">
   <div class="w3-content">
     <div class="w3-third">
-      <h1>US Population Growth by State</h1>
-      <h5 class="w3-padding-32">US population grew 6% from 2010 to 2019.  Most states staying relatively flat, 
+      <h5>US Population Growth by State</h5>
+      <h5 class="w3-padding-32 w3-text-grey">US population grew 6% from 2010 to 2019.  Most states staying relatively flat, 
         but a few states contributing more than others to these numbers.</h5>
     </div>
 
@@ -62,16 +73,16 @@
 </div>
 
 <!-- Second Grid -->
-<div class="w3-row-padding w3-padding-64 w3-container">
+<div class="w3-row-padding w3-padding-64 w3-container w3-light-grey">
 <div class="w3-content">
     <div class="w3-twothird">
       <img src="images/Tableau/Results/population_changes_map.gif" width="600" height="400"></i>
     </div>
 
     <div class=" w3-third">
-      <h1>Net Population Over Time</h1>
-      <h5 class="w3-padding-32">Map of the US showing population growth/decline from 2010 to 2019.  Makes it easy to identify if states have a net 
-        growth or decline over time.  Coastal, Wester, and Southern states showing the largest increase over time.</h5>
+      <h5>Net Population Over Time</h5>
+      <h5 class="w3-padding-32 w3-text-grey">Map of the US showing population growth/decline from 2010 to 2019.  Makes it easy to identify if states have a net 
+        growth or decline over time.  Coastal, Western, and Southern states showing the largest increase over time.</h5>
        
         </div>
     </div>
@@ -87,8 +98,8 @@
 <div class="w3-row-padding w3-padding-64 w3-container">
   <div class="w3-content">
       <div class="w3-quarter">
-        <h1>Average Median Sales Price Heatmap</h1>
-        <h5 class="w3-padding-32">Almost all states got more expensive as time progressed, but population gains aren't signifigant in most of the states that gained.
+        <h5>Average Median Sales Price Heatmap</h5>
+        <h5 class="w3-padding-32 w3-text-grey">Almost all states got more expensive as time progressed, but population gains aren't signifigant in most of the states that gained.
         </h5>
       </div>
   
@@ -101,15 +112,15 @@
   </div>
 
 <!--Fourth Grid-->
-<div class="w3-row-padding w3-padding-64 w3-container">
+<div class="w3-row-padding w3-padding-64 w3-container w3-light-grey">
   <div class="w3-content">   
-    <div class="w3-half">
+    <div class="w3-twothird">
         <img src="images/Tableau/Results/avg_sale_price_yoy_heatmap.png" width="600" height="600"></i>
       </div>
     </div>
-      <div class="w3-center w3-half">
-        <h1>Median Sales Price (YoY) <br> (%Gain/Decline)</h1>
-        <h5 class="w3-padding-32">All states are generally increasing at a faster pace through the later years
+      <div class="w3-third">
+        <h5>Median Sales Price (YoY) <br> (%Gain/Decline)</h5>
+        <h5 class="w3-padding-32 w3-text-grey">All states are generally increasing at a faster pace through the later years
         </h5>
          
           </div>
@@ -121,8 +132,8 @@
 <div class="w3-row-padding w3-padding-64 w3-container">
   <div class="w3-content">
       <div class="w3-third">
-        <h1>US Median Sales Price Over Time</h1>
-        <h5 class="w3-padding-32">Almost all states getting more expensive as time progresses - midwest and a select
+        <h5>US Median Sales Price Over Time</h5>
+        <h5 class="w3-padding-32 w3-text-grey">Almost all states getting more expensive as time progresses - midwest and a select
            few don't increase as much.  Coastal states as well as Colorado and Texas grow the most.
         </h5>
       </div>
@@ -142,14 +153,14 @@
 </div>
 
 <!--Sixth Grid-->
-<div class="w3-row-padding w3-padding-64 w3-container">  
+<div class="w3-row-padding w3-padding-64 w3-container w3-light-grey">  
   <div class="w3-content">
     <div class="w3-twothird">
         <img src="images/Tableau/Results/net_population_change_all_states.png" width="650" height="400"></i>
       </div>
-      <div class="w3-center w3-third">
-        <h1>Population Data Over Time by State</h1>
-        <h5 class="w3-padding-32">California, Florida, New York, and Texas were notable outliers.
+      <div class="w3-third">
+        <h5>Population Data Over Time by State</h5>
+        <h5 class="w3-padding-32 w3-text-grey">California, Florida, New York, and Texas were notable outliers.
         </h5>
          
           </div>
@@ -162,8 +173,8 @@
 <div class="w3-row-padding w3-padding-64 w3-container">
   <div class="w3-content">
       <div class="w3-third">
-        <h1>Downselected States</h1>
-        <h5 class="w3-padding-32">Outlier states with large population increases over time are California, 
+        <h5>Downselected States</h5>
+        <h5 class="w3-padding-32 w3-text-grey">Outlier states with large population increases over time are California, 
           Florida, and Texas.  New York surpisingly had a large decline in population in 2018.
         </h5>
       </div>
@@ -177,14 +188,14 @@
   </div>
 
 <!--Sixth Grid-->
-<div class="w3-row-padding w3-padding-64 w3-container">  
+<div class="w3-row-padding w3-padding-64 w3-container w3-light-grey">  
   <div class="w3-content">
     <div class="w3-twothird">
-        <img src="images/Tableau/Results/sale_price_and_yoy_trend_downselected_states.png" width="650" height="600" ></i>
+        <img src="images/Tableau/Results/sale_price_and_yoy_trend_downselected_states.png" width="650" height="600" >
       </div>
-      <div class="w3-center w3-third">
-        <h1>Sales Price and YoY Trends for Downselected States</h1>
-        <h5 class="w3-padding-32">As population growth slowed down or declined in California and New York, there is a flattening of price growth.
+      <div class="w3-third">
+        <h5>Sales Price and YoY Trends for Downselected States</h5>
+        <h5 class="w3-padding-32 w3-text-grey">As population growth slowed down or declined in California and New York, there is a flattening of price growth.
             However, Florida and Texas house prices continue to grow at relatively the same rate, even though population growth was declining. 
              This validates there not being a strong correlation between population and home price.  Vertical Line represents where population data cuts off. 
         </h5>
@@ -199,8 +210,8 @@
 <div class="w3-row-padding w3-padding-64 w3-container">
   <div class="w3-content">
       <div class="w3-third">
-        <h1>Sales, Inventory, and Homes Sold for Downselected States</h1>
-        <h5 class="w3-padding-32">Similar to the Price and YoY trends, there's not a strong correlation between population changes and Inventory / Homes Sold.  
+        <h5>Sales, Inventory, and Homes Sold for Downselected States</h5>
+        <h5 class="w3-padding-32 w3-text-grey">Similar to the Price and YoY trends, there's not a strong correlation between population changes and Inventory / Homes Sold.  
           Trends remain unchanged even though population growth is changing.
         </h5>
       </div>
