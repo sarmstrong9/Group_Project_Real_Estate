@@ -1,0 +1,11 @@
+
+body {
+
+    color: #000000;
+}
+
+.jumbotron {
+    background-image: url("../images/housing_graph.jpg");
+    background-size: 50% 100%;
+    text-align: center;
+  }
